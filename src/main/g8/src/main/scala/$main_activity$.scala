@@ -25,7 +25,7 @@ class MainActivity extends SActivity {
         SButton("Greet!", {
           val who = name.text.toString
           prefs.name = who
-          alert(s"Welcomes You", s"Hello $who")
+          alert(s"Welcomes You", "Hello " + who)
         })
       }
     )
